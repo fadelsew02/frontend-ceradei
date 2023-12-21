@@ -1,14 +1,7 @@
 <script setup>
-
+    import Explore from '../components/ExploreComponents/explorer.vue'
 </script>
 
 <template>
-  <main>
-    exploration
-  </main>
+    <Explore />
 </template>
-
-
-<style scoped>
-
-</style>

@@ -11,7 +11,7 @@
                     sm="4"
                 >
                     <v-card
-                        class=" my-12 rounded-xl elevation-2 py-10"
+                        class=" my-12 rounded-xl  py-10"
                         max-width="350"
                         height=auto
                     >
