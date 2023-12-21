@@ -89,6 +89,7 @@
         opacity: 0.6;
         background-color: peachpuff;
     }
+
 </style>
 
 <script>
@@ -115,16 +116,8 @@
                     "Des tournois de football,aux journées de rejouissance et ludique"
                 ]
             }
-        },
-
-            elevateCard() {
-                this.$refs.card.$el.style.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2)";
-            },
-            resetElevation() {
-                this.$refs.card.$el.style.boxShadow = "0 2px 4px 0 rgba(0,0,0,0.2)";
-            }
-        
-};
+        }    
+    };
     
 </script>
 

@@ -1,27 +1,26 @@
 
-
 <template>
    <header class="d-flex justify-space-between ma-1">
         <img src="../assets/images/CERADEI1.png" alt="l'icone de Ceradei" />
           <nav>
             <ul class="d-flex  pa-7">
               <li class="ma-2 pa-2">
-                <a href="">Acceuil</a>
+                <RouterLink to="/">Acceuil</RouterLink>
               </li>
               <li class="ma-2 pa-2">
-                <a href="">Espace académique</a>
+                <RouterLink to="/academic_space">Espace académique</RouterLink>
               </li>
               <li class="ma-2 pa-2">
-                  <a href="">Espace culturel</a>
+                  <RouterLink to="/culturel_space">Espace culturel</RouterLink>
               </li>
               <li class="ma-2 pa-2"> 
-                  <a href="">Explorer</a>
+                  <RouterLink to="/explore">Explorer</RouterLink>
               </li>
               <li class="ma-2 pa-2">
-                  <a href="">A propos</a>
+                  <RouterLink to="/about">A propos</RouterLink>
               </li>
               <li class="ma-2 pa-2">
-                <a href="">Aide et support</a>
+                <RouterLink to="#">Aide et support</RouterLink>
               </li>
               <li class="ma-1 pa-2">
                 <v-btn variant="outlined"> Nous rejoindre </v-btn>
@@ -51,18 +50,15 @@
     position: sticky;
     top: -20px;
     height: 17vh;
+    background-color: #FFF1dA;
   }
 
 
 </style>
 
-<!-- <script>
-export default {
-    setup() {
-        
-    },
-}
-</script> -->
+<script setup>
+  import { RouterLink } from 'vue-router';
+</script>
 
 
 
