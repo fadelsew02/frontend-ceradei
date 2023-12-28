@@ -1,5 +1,6 @@
 <template>
     <section class="ma-10">
+        <!-- <v-container> -->
       <h3 class=" font-weight-bold">Les concours</h3>
       <v-carousel  hide-delimiters>
         <v-carousel-item
@@ -7,7 +8,7 @@
           :key="i"
         >
             <article>
-                <h1 class="title font-weight-bold"> {{ item.title }}</h1>
+                <h1 class="title "> {{ item.title }}....</h1>
                 <div class="first_div">
                     <img
                         class="icon"
@@ -22,57 +23,52 @@
                 </div>
                 <img
                     class="img"
-                    height="500"
+                    height="600"
                     width="600"
                     :src="item.image"
                 />
             </article>
         </v-carousel-item>
       </v-carousel>
+    <!-- </v-container> -->
   </section>
 </template>
 
 <script>
-  import girl_pull_rouge from "../../assets/images/plan-interieur-femme-joyeuse-couvre-visage-manuel-rouge-expression-joyeuse (1).jpg";
-
+    import trophy from "../../assets/images/trophy_9128473 1.png";
+    import img from "../../assets/images/Rectangle 14.png";
 export default {
   // export default {
       data() {
           return {
               items: [
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "What !!!",
+                    icon: trophy,
+                    description: "Nous avons pris part au JEP 2023 dans le cadre de la promotion des innovations en fonction du domaine d'études. Nous avons remporté la premiere place",
+                    image: img,
+                    subtitle: "JEP 2023",
                     title: "Journée Des Etudiants",
                 },
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "Who !!!",
+                    icon: trophy,
+                    description: "Nous avons pris part au JEP 2022 dans le cadre de la promotion des innovations en fonction du domaine d'études. Nous avons remporté la premiere place",
+                    image: img,
+                    subtitle: "JEP 2022",
                     title: "Journée Des Enseignants",
                 },
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "Why !!!",
-                    title: "Journée Des Joueurs",
+                    icon: trophy,
+                    description: "Nous avons pris part au JEP 2021 dans le cadre de la promotion des innovations en fonction du domaine d'études. Nous avons remporté la premiere place",
+                    image: img,
+                    subtitle: "JEP 2021",
+                    title: "Journée Des Joueurs ",
                 },
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "What !!!",
-                    title: "Journée Des Etudiants",
-                },{
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "What !!!",
-                    title: "Journée Des Etudiants",
+                    icon: trophy,
+                    description: "Nous avons pris part au JEP 2020 dans le cadre de la promotion des innovations en fonction du domaine d'études. Nous avons remporté la premiere place",
+                    image: img,
+                    subtitle: "JEP 2020",
+                    title: "Journée Des Etudiants ",
                 },
               ],
           }
@@ -82,16 +78,31 @@ export default {
 </script>
 
 <style scoped>
-
     h3{
-        font-size: 1.5rem;
-        margin-inline-start: 50px;
+        color: var(--TEXT-CLR, #5E6282);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-inline-start: 200px;
     }
     article{
         margin-inline: 80px;
         display: grid;
+        gap: 15px;
         grid-template-areas: "title image"
-                             "desc image";
+                             "desc image"
+                             "esc   image";
+    }
+    .title{
+        color: var(--3rd, #14183E);
+        font-family: Volkhov;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
     }
 
     h1{
@@ -106,6 +117,10 @@ export default {
         grid-area: desc;
         display: flex;
         gap: 10px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        font-size: 1.3rem;
     }
 
     .img{

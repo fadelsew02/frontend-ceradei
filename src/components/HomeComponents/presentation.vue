@@ -52,6 +52,7 @@
     }
     p{
         margin-inline-end: 50px;
+        font-size: 1.3rem;
     }
     
 </style>

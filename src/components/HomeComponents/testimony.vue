@@ -79,7 +79,6 @@
     },
     methods: {
       getNextItem(currentIndex) {
-        // Assurez-vous que l'index ne dépasse pas la longueur du tableau
         const nextIndex = (currentIndex + 1) % this.items.length;
         return this.items[nextIndex];
       },
@@ -116,9 +115,12 @@
   .item_1{
     margin-inline-start: 90px;
     background-color: dimgray;
-    opacity: 0.4;
+    opacity: 0.5;
     display: flex;
     align-items: center;
+    /* border-radius: 10px; */
+    border: 2px solid var(--border-color, #F7F7F7);
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
 
   }
 

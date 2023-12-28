@@ -4,7 +4,8 @@
             <v-col>
                 <img  src="../assets/images/CERADEI1.png" alt="icone de CERADEI-GIT">
                 <div>ceradei-git@gmail.com</div>
-                <div>+888-888-88</div>
+                <div>+888-888-88</div> <br> <br> <br>
+                <IconSupport/>
             </v-col>
             <v-col>
                 <div class="titre mb-5">Links</div>
@@ -28,10 +29,8 @@
             </v-col>
             <v-col>
                 <div class="titre mb-5">Notre adresse</div>
-                <div class="options">Département de GIT. EPAC-UAC</div>  
-                <div>
-
-                </div>
+                <div class="options">Département de GIT. EPAC-UAC</div>   <br><br>
+                <IconSocialMedia />
             </v-col>
         </v-row>
         <v-row class="d-flex justify-center my-10">
@@ -68,8 +67,7 @@ img{
 }
 </style>
 
-<script>
-export default {
-    
-}
+<script setup>
+    import IconSocialMedia from './icons/IconSocialMedia.vue';
+    import IconSupport from './icons/IconSupport.vue';
 </script>

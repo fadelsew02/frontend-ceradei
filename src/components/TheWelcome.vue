@@ -1,9 +1,9 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
+import DocumentationIcon from './icons/IconMail.vue'
+import ToolingIcon from './icons/IconElection.vue'
+import EcosystemIcon from './icons/IconSocialMedia.vue'
+import CommunityIcon from './icons/IconSend.vue'
 import SupportIcon from './icons/IconSupport.vue'
 </script>
 

@@ -36,33 +36,33 @@
         items: [
           {
             image: girl_pull_rouge,
-            name: "Florian KOTANMI",
+            name: "Merveille AIZANNON",
             poste: "Président du Bureau Exécutif",
-            level: "RII 1",
+            level: "RT 2",
           },
           {
             image: girl_pull_rouge,
-            name: "Prince AVOHOU",
-            poste: "Trésorier Général",
-            level: "RII 1",
-          },
-          {
-            image: girl_pull_rouge,
-            name: "Sephora ALAYE",
+            name: "Hermann d'ALMEIDA",
             poste: "Secrétaire Général",
+            level: "RII 1",
+          },
+          {
+            image: girl_pull_rouge,
+            name: "Térence GAUTHE",
+            poste: "Trésorier Général",
             level: "RT 1",
           },
           {
             image: girl_pull_rouge,
             name: "Fadel SEWADE",
-            poste: "Présient Conseil de Contrôle",
+            poste: "Responsable Section 1",
             level: "RII 1",
           },
           {
             image: girl_pull_rouge,
-            name: "Isidore ANAGONOU",
-            poste: "Secrétaire Conseil de Contrôle",
-            level: "RT 1",
+            name: "Marzoukath AGBODJA",
+            poste: "Secrétaire Section 1",
+            level: "GIT3",
           },
           {
             image: girl_pull_rouge,
@@ -107,11 +107,11 @@
   
   <style scoped>
   .btn {
-    background-color: dodgerblue;
+    background-color: #275B73;
     padding: 10px;
   }
   .carousel{
-    /* background-color: black; */
+    /* background-color: black */
     padding-inline: 5%;
   }
 

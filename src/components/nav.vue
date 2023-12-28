@@ -1,6 +1,6 @@
 
 <template>
-   <header class="d-flex justify-space-between ma-1">
+   <header class="d-flex justify-space-around ma-1">
         <img src="../assets/images/CERADEI1.png" alt="l'icone de Ceradei" />
           <nav>
             <ul class="d-flex  pa-7">
@@ -20,10 +20,10 @@
                   <RouterLink to="/about">A propos</RouterLink>
               </li>
               <li class="ma-2 pa-2">
-                <RouterLink to="#">Aide et support</RouterLink>
+                <RouterLink to="/help_and_support">Aide et support</RouterLink>
               </li>
               <li class="ma-1 pa-2">
-                <v-btn variant="outlined"> Nous rejoindre </v-btn>
+                <v-btn variant="outlined"> <RouterLink to="/join_us">Nous rejoindre </RouterLink> </v-btn>
               </li>
             </ul>
           </nav>
@@ -32,8 +32,8 @@
 
 <style scoped>
   img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   li{
     font-size: large;
@@ -49,8 +49,8 @@
   header {
     position: sticky;
     top: -20px;
-    height: 17vh;
-    background-color: #FFF1dA;
+    height: 10vh;
+    backdrop-filter: blur(10px);
   }
 
 

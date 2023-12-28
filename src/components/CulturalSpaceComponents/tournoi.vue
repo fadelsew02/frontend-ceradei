@@ -1,13 +1,14 @@
 <template>
     <section class="ma-10">
-      <h3 class=" font-weight-bold text-center">Les Tournois sportifs</h3>
+        <!-- <v-container> -->
+      <h3>Les Tournois sportifs</h3>
       <v-carousel  hide-delimiters>
         <v-carousel-item
           v-for="(item,i) in items"
           :key="i"
         >
             <article>
-                <h1 class="title font-weight-bold"> {{ item.title }}</h1>
+                <h1 class="title font-weight-bold"> {{ item.title }} ...</h1>
                 <div class="first_div">
                     <img
                         class="icon"
@@ -22,18 +23,20 @@
                 </div>
                 <img
                     class="img"
-                    height="500"
+                    height="600"
                     width="600"
                     :src="item.image"
                 />
             </article>
         </v-carousel-item>
       </v-carousel>
+    <!-- </v-container> -->
   </section>
 </template>
 
 <script>
-  import girl_pull_rouge from "../../assets/images/plan-interieur-femme-joyeuse-couvre-visage-manuel-rouge-expression-joyeuse (1).jpg";
+  import image from "../../assets/images/Rectangle 14.svg";
+  import cup from "../../assets/images/competition_5432899 1.png";
 
 export default {
   // export default {
@@ -41,38 +44,32 @@ export default {
           return {
               items: [
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "What !!!",
-                    title: "Journée Des Etudiants",
+                    icon: cup,
+                    description: "Nous formons une équipe harmonieuse avec la GE où nous participons chaque année au tournoi de foot organisé par l'Epac",
+                    image: image,
+                    subtitle: "Epac Cup",
+                    title: "Tournoi de Football",
                 },
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "Who !!!",
-                    title: "Journée Des Enseignants",
+                    icon: cup,
+                    description: "Nous formons une équipe harmonieuse avec la GE où nous participons chaque année au tournoi de foot organisé par l'Epac",
+                    image: image,
+                    subtitle: "Epac Cup",
+                    title: "Tournoi de Football",
                 },
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "Why !!!",
-                    title: "Journée Des Joueurs",
+                    icon: cup,
+                    description: "Nous formons une équipe harmonieuse avec la GE où nous participons chaque année au tournoi de foot organisé par l'Epac",
+                    image: image,
+                    subtitle: "Epac Cup",
+                    title: "Tournoi De Football",
                 },
                 {
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "What !!!",
-                    title: "Journée Des Etudiants",
-                },{
-                    icon: girl_pull_rouge,
-                    description: "azerty qwerty aqwx, rttyreute apza zapm nerty, cddhthrh ee. Borteyez, vnvxwmpe, ayapmlnclnsqhiuazffzeffazarazteetzre",
-                    image: girl_pull_rouge,
-                    subtitle: "What !!!",
-                    title: "Journée Des Etudiants",
+                    icon: cup,
+                    description: "Nous formons une équipe harmonieuse avec la GE où nous participons chaque année au tournoi de foot organisé par l'Epac",
+                    image: image,
+                    subtitle: "Epac Cup",
+                    title: "Tournoi de Football",
                 },
               ],
           }
@@ -82,17 +79,34 @@ export default {
 </script>
 
 <style scoped>
+.title{
+    color: var(--3rd, #14183E);
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 
     h3{
-        font-size: 1.5rem;
-        margin-inline-start: 300px;
+        color: var(--TEXT-CLR, #5E6282);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        /* position: relative;
+        left: 700px; */
     }
     article{
         margin-inline: 80px;
         display: grid;
         gap: 50px;
         grid-template-areas: "image title"
-                             "image desc";
+                             "image desc"
+                             "image esc";
     }
 
     h1{
@@ -107,6 +121,9 @@ export default {
         grid-area: desc;
         display: flex;
         gap: 10px;
+        position: relative;
+        top: 70px;
+        font-size: 1.3rem;
     }
 
     .img{

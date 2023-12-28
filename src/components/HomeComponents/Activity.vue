@@ -1,8 +1,8 @@
 <template>
       <section class="ma-10">
-        <h3 class="text-center font-weight-bold">Les Formations</h3>
-        <h1 class="text-center font-weight-bold">Nos Formations</h1>
-        <v-container>
+        <h3 class="text-center font-weight-bold">Les Formations en 2023</h3>
+        <h1 class="text-center font-weight-bold">Nos Formateurs</h1>
+        <v-container class="container">
             <v-row no-gutters class="d-flex justify-space-between">
                 <v-col
                     v-for="n in 3"
@@ -11,7 +11,7 @@
                     sm="4"
                 >
                     <v-card
-                        class=" my-12 rounded-xl  py-10"
+                        class=" my-12 rounded-xl elevation-2 py-10"
                         max-width="350"
                         height=auto
                     >
@@ -32,18 +32,26 @@
                             </v-card-text>
                         </v-row>
                     </v-card>
+                    
                 </v-col>
+                
             </v-row>
-            <v-row class="d-flex justify-center">
+            <DecorIcon class="icon"/>
+            
+        </v-container>
+        <v-row class="d-flex justify-center">
                 <v-btn variant="tonal" class="btn"> Voir les formations </v-btn>
             </v-row>
-        </v-container>
     </section>
 </template>
 
+<script setup>
+import DecorIcon from '../icons/IconDecor.vue';
+</script>
+
 <script>
     import girl_pull_rouge from "../../assets/images/jeune-femme-coupe-cheveux-afro-portant-pull-rose.jpg";
-
+    
 export default {
   name: 'MyActivity', 
 
@@ -66,7 +74,7 @@ export default {
                 level: [
                     "RII 1",
                     "RII 1",
-                    "RT 1" 
+                    "RT 1"
                 ]
             }
         }    
@@ -75,8 +83,22 @@ export default {
 </script>
 
 <style scoped>
+
+.container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    bottom: 100px;
+    left: 88%;
+    z-index: -1;
+}
     .btn{
-        background-color: dodgerblue;
+        background-color: #275B73;
         padding: 10px;
     }
 
