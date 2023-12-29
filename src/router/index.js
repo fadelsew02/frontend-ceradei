@@ -3,9 +3,15 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import AcademicSpaceView from '../views/AcademicSpaceView.vue'
 import CulturelSpaceView from '../views/CulturelSpaceView.vue'
+<<<<<<< HEAD
 import ExploreView from '../views/Explore.vue'
 import HelpAndSupportView from '../views/HelpAndSupport.vue'
 import JoinUsView from '../views/NousRejoindre.vue'
+=======
+import ExploreView from '../views/ExploreView.vue'
+import HelpView from '../views/HelpView.vue'
+import RejoindreNousView from '../views/RejoindreNousView.vue'
+>>>>>>> devSephora
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -36,6 +42,7 @@ const router = createRouter({
       component: ExploreView
     },
     {
+<<<<<<< HEAD
       path: '/help_and_support',
       name: 'help_and_support',
       component: HelpAndSupportView
@@ -44,6 +51,16 @@ const router = createRouter({
       path: '/join_us',
       name: 'join_us',
       component: JoinUsView
+=======
+      path: '/help',
+      name: 'help',
+      component: HelpView
+    },
+    {
+      path: '/rejoindrenous',
+      name: 'rejoindrenous',
+      component:RejoindreNousView
+>>>>>>> devSephora
     }
   ]
 })

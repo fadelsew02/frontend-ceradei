@@ -6,6 +6,10 @@
   import Presentation from '../components/HomeComponents/presentation.vue'
   import Testimony from '../components/HomeComponents/testimony.vue'
   import Office from '../components/HomeComponents/office.vue'
+<<<<<<< HEAD
+=======
+
+>>>>>>> devSephora
 </script>
 
 <template>
@@ -15,7 +19,11 @@
     <MyActivity />
     <Join />
     <Testimony />
+<<<<<<< HEAD
     <Office/>
+=======
+    <Office />
+>>>>>>> devSephora
     <NewsLetters />
   </main>
 </template>
