@@ -25,7 +25,7 @@
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
-                            <img src="../assets/images/calendrier 1.png" style="width: 20px;height: 20px;" alt="calendrier">
+                            <img src="../assets/images/trophy_9128473 1.png" style="width: 20px;height: 20px;" alt="calendrier">
                         </div>
                         <div >Avril 2022</div>
                     </div>
@@ -55,69 +55,7 @@
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
-                            <img src="../src/assets/images/calendrier 1.png" style="width: 20px;height: 20px;" alt="calendrier">
-                        </div>
-                        <div >Avril 2022</div>
-                    </div>
-                    <div>
-                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
-                    </div>
-                </div>
-                </v-card>
-            </v-row> 
-             <v-row class="d-flex" style="margin-bottom: 10%;" >
-                <v-card
-                class="mx-auto"
-                max-width="375"
-                height="420"
-                style=" border-radius: 30px;"
-            >
-                <v-img
-                class="align-end text-white"
-                height="300"
-                src="../src/assets/images/Rectangle14.png"
-                cover
-                >
-                </v-img>
-  
-                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
-                    Journée du Monde Professionnel (JMP)
-                </v-card-subtitle>
-  
-                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
-                    <div class="d-flex" >
-                        <div>
-                            <img src="../assets/images/calendrier 1.png" style="width: 20px;height: 20px;" alt="calendrier">
-                        </div>
-                        <div >Avril 2022</div>
-                    </div>
-                    <div>
-                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
-                    </div>
-                </div>
-                </v-card>
-                <v-card
-                class="mx-auto"
-                max-width="375"
-                height="420"
-                style=" border-radius: 30px;"
-            >
-                <v-img
-                class="align-end text-white"
-                height="300"
-                src="../assets/images/Rectangle14.png"
-                cover
-                >
-                </v-img>
-  
-                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
-                    Journée du Monde Professionnel (JMP)
-                </v-card-subtitle>
-  
-                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
-                    <div class="d-flex" >
-                        <div>
-                            <img src="../assets/images/calendrier 1.png" style="width: 20px;height: 20px;" alt="calendrier">
+                            <img src="../assets/images/Rectangle14.png" style="width: 20px;height: 20px;" alt="calendrier">
                         </div>
                         <div >Avril 2022</div>
                     </div>
@@ -149,7 +87,7 @@
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
-                            <img src="../assets/images/calendrier 1.png" style="width: 20px;height: 20px;" alt="calendrier">
+                            <img src="../assets/images/Rectangle14.png" style="width: 20px;height: 20px;" alt="calendrier">
                         </div>
                         <div >Avril 2022</div>
                     </div>
@@ -179,7 +117,69 @@
                 <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
                     <div class="d-flex" >
                         <div>
-                            <img src="../assets/images/calendrier 1.png" style="width: 20px;height: 20px;" alt="calendrier">
+                            <img src="../assets/images/Rectangle14.png" style="width: 20px;height: 20px;" alt="calendrier">
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
+                </v-card>
+            </v-row> 
+             <v-row class="d-flex" style="margin-bottom: 10%;" >
+                <v-card
+                class="mx-auto"
+                max-width="375"
+                height="420"
+                style=" border-radius: 30px;"
+            >
+                <v-img
+                class="align-end text-white"
+                height="300"
+                src="../assets/images/Rectangle14.png"
+                cover
+                >
+                </v-img>
+  
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
+                </v-card-subtitle>
+  
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <img src="../assets/images/Rectangle14.png" style="width: 20px;height: 20px;" alt="calendrier">
+                        </div>
+                        <div >Avril 2022</div>
+                    </div>
+                    <div>
+                        <a href="" class="" style="text-decoration: none; color:rgba(94, 98, 130, 1);">Voir plus...</a>
+                    </div>
+                </div>
+                </v-card>
+                <v-card
+                class="mx-auto"
+                max-width="375"
+                height="420"
+                style=" border-radius: 30px;"
+            >
+                <v-img
+                class="align-end text-white"
+                height="300"
+                src="../assets/images/Rectangle14.png"
+                cover
+                >
+                </v-img>
+  
+                <v-card-subtitle class="pt-4" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 17px;line-height: 22.41px; color: rgba(94, 98, 130, 1);">
+                    Journée du Monde Professionnel (JMP)
+                </v-card-subtitle>
+  
+                <div class="d-flex justify-space-between pa-3" style="font-family: 'Poppins', sans-serif;font-weight: 500;font-size: 16px;line-height: 19.92px; color:rgba(94, 98, 130, 1);">
+                    <div class="d-flex" >
+                        <div>
+                            <img src="../assets/images/Rectangle14.png" style="width: 20px;height: 20px;" alt="calendrier">
                         </div>
                         <div >Avril 2022</div>
                     </div>
