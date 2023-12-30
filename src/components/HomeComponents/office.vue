@@ -20,8 +20,10 @@
                 </v-row>
             </v-carousel-item>
         </v-carousel>        
-        <v-row class="d-flex justify-center">
-          <v-btn variant="tonal" class="btn"> Voir les anciens bureaux </v-btn>
+        <v-row class=" d-flex justify-center">
+            <v-col-4 class=" text-center d-flex justify-center align-center enveloppe">
+                <v-btn variant="" class="btn "> Voir les anciens bureaux </v-btn>
+            </v-col-4>
         </v-row>
       <!-- </v-container> -->
     </section>
@@ -115,6 +117,25 @@
     padding-inline: 5%;
   }
 
+  .enveloppe {
+    background-color: rgba(39, 91, 115, 1);
+    font-family: 'Actor', sans-serif;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn {
+    padding: 10px;
+    font-family: 'Actor', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.65px;
+    color: rgba(255, 255, 255, 1);
+}
   .card{
     margin-inline-start: 75px ;
   }

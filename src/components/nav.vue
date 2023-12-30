@@ -1,6 +1,5 @@
 
 <template>
-<<<<<<< HEAD
    <header class="d-flex justify-space-around ma-1">
         <img src="../assets/images/CERADEI1.png" alt="l'icone de Ceradei" />
           <nav>
@@ -25,42 +24,6 @@
               </li>
               <li class="ma-1 pa-2">
                 <v-btn variant="outlined"> <RouterLink to="/join_us">Nous rejoindre </RouterLink> </v-btn>
-=======
-   <header class="d-flex align-center " style="margin-left: 100px; gap: 15%;">
-        <img src="../assets/images/CERADEI1.png" class="ml-0" alt="l'icone de Ceradei" style="" />
-          <nav class="">
-            <ul class="d-flex align-center">
-              <li class="">
-                <a href="">Acceuil</a>
-              </li>
-              <img src="../assets/images/Rectangle 22.png" alt="" class="rectangle">
-              <li class="">
-                <a href="">Espace académique</a>
-              </li>
-              <img src="../assets/images/Rectangle 22.png" alt="" class="rectangle">
-              <li class="">
-                  <a href="">Espace culturel</a>
-              </li>
-              <img src="../assets/images/Rectangle 22.png" alt="" class="rectangle">
-
-              <li class=""> 
-                  <a href="/explore">Explorer</a>
-              </li>
-              <img src="../assets/images/Rectangle 22.png" alt="" class="rectangle">
-
-              <li class="">
-                  <a href="">A propos</a>
-              </li>
-              <img src="../assets/images/Rectangle 22.png" alt="" class="rectangle">
-
-              <li class="">
-                <a href="">Aide et support</a>
-              </li>
-              <img src="../assets/images/Rectangle 22.png" alt="" class="rectangle">
-
-              <li class="" style="color: rgba(33, 40, 50, 1);border: 1px; width: 144.23px;height: 39px; top: 47px; border-radius: 5px;">
-                <v-btn variant="outlined"> Nous rejoindre </v-btn>
->>>>>>> devSephora
               </li>
             </ul>
           </nav>
@@ -69,24 +32,14 @@
 
 <style scoped>
   img{
-<<<<<<< HEAD
     width: 120px;
     height: 120px;
-=======
-    width: 178px;
-    height: 176px;
-    top:-14px;
->>>>>>> devSephora
   }
   li{
-    font-size: large;
+    font-size: 1.3rem;
     font-family: 'Actor', sans-serif;
     list-style: none;
-    font-size: 15px;
     font-weight: 400;
-    line-height: 18.05px;
-    
-  
   }
 
   li a{
@@ -98,24 +51,10 @@
   header {
     position: sticky;
     top: -20px;
-<<<<<<< HEAD
-    height: 10vh;
+    height: 15vh;
     backdrop-filter: blur(10px);
-=======
-    height: 17vh;
-    backdrop-filter: blur(10px);
-  }
 
-  .rectangle{
-    width: 24px;
-    height: 24px;
-    top: 55px;
-    left: 622px;
-    rotate: -90;
-    visibility: hidden;
->>>>>>> devSephora
   }
-
 
 </style>
 

@@ -1,20 +1,11 @@
 <template>
     <div>
-<<<<<<< HEAD
-        <v-row class="d-flex ms-15">
+        <v-row class="d-flex flex-direction:row ms-15">
             <v-col>
                 <img  src="../assets/images/CERADEI1.png" alt="icone de CERADEI-GIT">
                 <div>ceradei-git@gmail.com</div>
                 <div>+888-888-88</div> <br> <br> <br>
                 <IconSupport/>
-=======
-        <v-row class="d-flex flex-direction:row ms-15">
-            <v-col>
-                <img  src="../assets/images/CERADEI1.png" alt="icone de CERADEI-GIT">
-                <div>ceradei-git@gmail.com</div>
-                <div>+888-888-88</div>
-                <img src="../assets/images/Shape.png" style="width: 162px; height: 123px; margin-top: 60px;" alt="">
->>>>>>> devSephora
             </v-col>
             <v-col>
                 <div class="titre mb-5">Links</div>
@@ -38,12 +29,9 @@
             </v-col>
             <v-col>
                 <div class="titre mb-5">Notre adresse</div>
-<<<<<<< HEAD
                 <div class="options">Département de GIT. EPAC-UAC</div>   <br><br>
                 <IconSocialMedia />
-=======
-                <div class="options">Département de GIT. EPAC-UAC</div>  
->>>>>>> devSephora
+
             </v-col>
         </v-row>
         <v-row class="d-flex justify-center my-10">
@@ -77,17 +65,10 @@ img{
     font-size: 14px;
     line-height: 17.43px;
     color: #5E6282;
-<<<<<<< HEAD
-=======
 }
 </style>
 
-<script>
-export default {
-    
->>>>>>> devSephora
-}
-</style>
+
 
 <script setup>
     import IconSocialMedia from './icons/IconSocialMedia.vue';

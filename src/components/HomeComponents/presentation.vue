@@ -2,7 +2,7 @@
   <img src="../../assets/images/decoration.png" alt="" class="image_decoration" />
   <div class="d-flex mt-16" style="margin-bottom: 8%;">
     <div>
-      <div class="preface" style="">
+      <div class="preface">
         Cercle d’echange de reflexion et actions des elèves ingénieurs en git (CERADEI-GIT)
       </div>
       <img src="../../assets/images/Vector.png" class="" alt="" />
@@ -47,15 +47,11 @@
 }
 
 .titre {
-  width: 530.13px;
-  height: 266.48px;
   margin-left: 80px;
   color: rgba(24, 30, 75, 1);
   font-family: 'Volkhov', serif;
-  font-size: 84px;
+  font-size: 50px;
   font-weight: 700;
-  letter-spacing: -4%;
-  line-height: 89px;
 }
 
 .titre + div {
@@ -79,7 +75,7 @@
 .image_presentation {
   width: 675px;
   height: 506px;
-  margin-top: 11%;
+  /* margin-top: 11%; */
  object-fit: cover;
   border-radius: 24px;
   box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0);
@@ -91,8 +87,6 @@
 
 }
 
-
-<<<<<<< HEAD
     h1{
         font-size: 2.6em;
         color: aqua;
@@ -105,7 +99,4 @@
         margin-inline-end: 50px;
         font-size: 1.3rem;
     }
-    
-=======
->>>>>>> devSephora
 </style>
