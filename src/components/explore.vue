@@ -140,7 +140,7 @@
                 <div class="mt-15 membres border"  style="height:446.62px;" >
                     <div class="" style="margin-bottom: -40px;">
                         <div class="mt-5 " style="margin-bottom: -8px;">Membres</div>
-                        <img src="../assets/images/fleche.png" class="ml-1 " style="" alt="">
+                        <img src="../assets/images/Line 1.png" class="ml-1 " style="" alt="">
                         <div class=" mt-1">
                             <div class="d-flex mb-2" style="gap: 3px;">
                                 <img src="../assets/images/arrow_3024254 8.png" alt="">
@@ -159,11 +159,11 @@
                                 <div class="mt-1">Membres CERADEI 2023</div>
                             </div>
                         </div>
-                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="fleche">
+                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="Line 1">
                     </div>
                     <div class="">
                         <div class="mt-6 " style="margin-bottom: -8px;">Activités</div>
-                        <img src="../assets/images/fleche.png" class="ml-1 " style="" alt="">
+                        <img src="../assets/images/Line 1.png" class="ml-1 " style="" alt="">
                         <div class="mt-1">
                             <div class="d-flex mb-2" style="gap: 3px;">
                                 <img src="../assets/images/arrow_3024254 8.png" alt="">
@@ -182,13 +182,13 @@
                                 <div class="mt-1">Activités en 2023</div>
                             </div>
                         </div>
-                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="fleche">
+                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="Line 1">
                     </div>
                 </div> 
                 <div class="mt-15 membres border" style="height:486.17px ;" >
                     <div class="" style="margin-bottom: -40px;">
                         <div class="mt-5 " style="margin-bottom: -8px;">Récentes activités</div>
-                        <img src="../assets/images/fleche.png" class="ml-1 " style="" alt="">
+                        <img src="../assets/images/Line 1.png" class="ml-1 " style="" alt="">
                         <div class=" mt-1 mb-7">
                             <div class=" d-flex mb-2" style="gap: 10px;">
                                 <img src="../assets/images/Rectangle 165.png" alt="">
@@ -225,13 +225,13 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="fleche">
+                        <img src="../assets/images/right-arrow_3839915 1 (1).png" style="margin-left: 200px;" alt="Line 1">
                     </div>
                 </div>     
                 <div class="mt-15 membres border" style="height:328px ;" >
                     <div class="" style="margin-bottom: -40px;">
                         <div class="mt-5 " style="margin-bottom: -8px;">Les plus recherchés</div>
-                        <img src="../assets/images/fleche.png" class="ml-1  " style="" alt="">
+                        <img src="../assets/images/Line 1.png" class="ml-1  " style="" alt="">
                         <div>
                             <div class="d-flex mt-4" style="gap: 30px;">
                                 <div class="tournoi">tournoi</div>
