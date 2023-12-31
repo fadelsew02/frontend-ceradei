@@ -8,7 +8,7 @@
                         <div class="bloc">
                             <img src="../assets/images/Rectangle14.png" class="" alt="">
                             <div class="card">
-                                <img src="../assets/images/Rectangle 15 (1).png" class="" alt="">
+                                <img src="../assets/images/Rectangle 15.png" class="" alt="">
                                 <div class="container">
                                     <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
                                     <div class="d-flex" style="gap: 30%;">
@@ -28,49 +28,7 @@
                         <div class="bloc">
                             <img src="../assets/images/Rectangle14.png" class="" alt="">
                             <div class="card">
-                                <img src="../assets/images/Rectangle 15 (1).png" class="" alt="">
-                                <div class="container">
-                                    <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
-                                    <div class="d-flex" style="gap: 30%;">
-                                        <div class="d-flex">
-                                            <img src="../assets/images/calendrier 1.png" class="mt-4 ml-2" style="width: 20px; height: 20px;" alt="">
-                                            <div class="ml-12">Avril 2022</div>
-                                        </div>
-                                        <div>Voir plus...</div>
-                                    </div> 
-                                </div>
-                            </div> 
-                        </div>
-
-                      
-                    </v-col>
-                </v-row>
-                <v-row class="mb-16">
-                    <v-col>
-                        <div class="bloc">
-                            <img src="../assets/images/Rectangle14.png" class="" alt="">
-                            <div class="card">
-                                <img src="../assets/images/Rectangle 15 (1).png" class="" alt="">
-                                <div class="container">
-                                    <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
-                                    <div class="d-flex" style="gap: 30%;">
-                                        <div class="d-flex">
-                                            <img src="../assets/images/calendrier 1.png" class="mt-4 ml-2" style="width: 20px; height: 20px;" alt="">
-                                            <div class="ml-12">Avril 2022</div>
-                                        </div>
-                                        <div>Voir plus...</div>
-                                    </div> 
-                                </div>
-                            </div> 
-                        </div>
-
-                      
-                    </v-col>
-                    <v-col>
-                        <div class="bloc">
-                            <img src="../assets/images/Rectangle14.png" class="" alt="">
-                            <div class="card">
-                                <img src="../assets/images/Rectangle 15 (1).png" class="" alt="">
+                                <img src="../assets/images/Rectangle 15.png" class="" alt="">
                                 <div class="container">
                                     <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
                                     <div class="d-flex" style="gap: 30%;">
@@ -92,7 +50,7 @@
                         <div class="bloc">
                             <img src="../assets/images/Rectangle14.png" class="" alt="">
                             <div class="card">
-                                <img src="../assets/images/Rectangle 15 (1).png" class="" alt="">
+                                <img src="../assets/images/Rectangle 15.png" class="" alt="">
                                 <div class="container">
                                     <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
                                     <div class="d-flex" style="gap: 30%;">
@@ -112,7 +70,49 @@
                         <div class="bloc">
                             <img src="../assets/images/Rectangle14.png" class="" alt="">
                             <div class="card">
-                                <img src="../assets/images/Rectangle 15 (1).png" class="" alt="">
+                                <img src="../assets/images/Rectangle 15.png" class="" alt="">
+                                <div class="container">
+                                    <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
+                                    <div class="d-flex" style="gap: 30%;">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/calendrier 1.png" class="mt-4 ml-2" style="width: 20px; height: 20px;" alt="">
+                                            <div class="ml-12">Avril 2022</div>
+                                        </div>
+                                        <div>Voir plus...</div>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </div>
+
+                      
+                    </v-col>
+                </v-row>
+                <v-row class="mb-16">
+                    <v-col>
+                        <div class="bloc">
+                            <img src="../assets/images/Rectangle14.png" class="" alt="">
+                            <div class="card">
+                                <img src="../assets/images/Rectangle 15.png" class="" alt="">
+                                <div class="container">
+                                    <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
+                                    <div class="d-flex" style="gap: 30%;">
+                                        <div class="d-flex">
+                                            <img src="../assets/images/calendrier 1.png" class="mt-4 ml-2" style="width: 20px; height: 20px;" alt="">
+                                            <div class="ml-12">Avril 2022</div>
+                                        </div>
+                                        <div>Voir plus...</div>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </div>
+
+                      
+                    </v-col>
+                    <v-col>
+                        <div class="bloc">
+                            <img src="../assets/images/Rectangle14.png" class="" alt="">
+                            <div class="card">
+                                <img src="../assets/images/Rectangle 15.png" class="" alt="">
                                 <div class="container">
                                     <div class="titre ml-2 mb-4 ">Journée du Monde Professionnel (JMP)</div>
                                     <div class="d-flex" style="gap: 30%;">
